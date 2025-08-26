@@ -2,6 +2,7 @@ import { getBlogBySlug, getAllBlogs } from "../../lib/blog-utils";
 import { notFound } from "next/navigation";
 import WhatsAppButton from "./WhatsappButton";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   const blogs = await getAllBlogs();
@@ -266,7 +267,7 @@ export default async function BlogPost({ params }) {
                 </time>
               </div>
               {blog.image && (
-                <img src={blog.image} alt={blog.title} style={imageStyle} />
+                <Image src={blog.image} alt={blog.title} style={imageStyle} />
               )}
             </header>
 
