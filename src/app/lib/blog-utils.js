@@ -5,9 +5,9 @@ const mockBlogs = [
   {
     id: 1,
     slug: "introduction-to-classical-music",
-    title: "Introduction to Classical Music: A Beginner's Guide",
+    title: "Introduction to Classical Music: A Beginner&apos;s Guide",
     excerpt:
-      "Discover the beauty and complexity of classical music with our comprehensive beginner's guide. Learn about different periods, composers, and how to appreciate this timeless art form.",
+      "Discover the beauty and complexity of classical music with our comprehensive beginner&apos;s guide. Learn about different periods, composers, and how to appreciate this timeless art form.",
     content: `
       <h2>What is Classical Music?</h2>
       <p>Classical music is a broad term that typically refers to the formal musical tradition of the Western world, considered distinct from Western folk music or popular music traditions.</p>
@@ -22,7 +22,7 @@ const mockBlogs = [
       </ul>
       
       <h3>Getting Started</h3>
-      <p>The best way to appreciate classical music is to listen actively. Start with popular pieces like Beethoven's Symphony No. 9 or Mozart's Eine kleine Nachtmusik.</p>
+      <p>The best way to appreciate classical music is to listen actively. Start with popular pieces like Beethoven&apos;s Symphony No. 9 or Mozart&apos;s Eine kleine Nachtmusik.</p>
       
       <blockquote>
         <p>"Music is the universal language of mankind." - Henry Wadsworth Longfellow</p>
@@ -55,7 +55,7 @@ const mockBlogs = [
       </ul>
       
       <h3>2. Mental Practice</h3>
-      <p>Practice doesn't always require a piano. Mental rehearsal can be incredibly effective:</p>
+      <p>Practice doesn&apos;t always require a piano. Mental rehearsal can be incredibly effective:</p>
       <ul>
         <li>Visualize finger movements</li>
         <li>Hear the music in your mind</li>
@@ -84,7 +84,7 @@ const mockBlogs = [
       "Research shows that music education significantly enhances cognitive development in children. Discover how learning music can improve academic performance and brain function.",
     content: `
       <h2>Science-Backed Benefits</h2>
-      <p>Numerous studies have demonstrated the positive impact of music education on children's cognitive development.</p>
+      <p>Numerous studies have demonstrated the positive impact of music education on children&apos;s cognitive development.</p>
       
       <h3>Enhanced Memory and Attention</h3>
       <p>Learning to play an instrument requires intense focus and memory work, which strengthens these cognitive abilities for use in other areas of life.</p>
@@ -109,7 +109,7 @@ const mockBlogs = [
       <p>Group music activities teach cooperation, empathy, and emotional expression while building confidence and self-esteem.</p>
       
       <h2>Starting Early</h2>
-      <p>While it's never too late to start learning music, early exposure (ages 3-7) can maximize these cognitive benefits during critical brain development periods.</p>
+      <p>While it&apos;s never too late to start learning music, early exposure (ages 3-7) can maximize these cognitive benefits during critical brain development periods.</p>
     `,
     author: "Dr. Elena Rostova",
     date: "2024-12-08",
@@ -124,7 +124,7 @@ const mockBlogs = [
     slug: "famous-composers-history",
     title: "Famous Composers Who Changed Music History",
     excerpt:
-      "Explore the lives and contributions of legendary composers whose innovations shaped the musical landscape. From Bach's mathematical precision to Beethoven's revolutionary spirit.",
+      "Explore the lives and contributions of legendary composers whose innovations shaped the musical landscape. From Bach&apos;s mathematical precision to Beethoven&apos;s revolutionary spirit.",
     content: `
       <h2>The Giants of Classical Music</h2>
       <p>Throughout history, certain composers have fundamentally changed how we understand and appreciate music.</p>
@@ -133,7 +133,7 @@ const mockBlogs = [
       <p>Bach perfected the art of counterpoint and created mathematical masterpieces that continue to influence musicians today. His Well-Tempered Clavier remains essential study material for all pianists.</p>
       
       <h3>Wolfgang Amadeus Mozart (1756-1791)</h3>
-      <p>A child prodigy who composed over 600 works in his short life. Mozart's music represents the perfect balance of technical skill and emotional expression.</p>
+      <p>A child prodigy who composed over 600 works in his short life. Mozart&apos;s music represents the perfect balance of technical skill and emotional expression.</p>
       
       <h3>Ludwig van Beethoven (1770-1827)</h3>
       <p>Beethoven bridged the Classical and Romantic periods, expanding the emotional and structural possibilities of music despite his progressive hearing loss.</p>
@@ -142,10 +142,10 @@ const mockBlogs = [
       <p>Known as the "poet of the piano," Chopin elevated piano music to new artistic heights with his nocturnes, études, and ballades.</p>
       
       <h3>Pyotr Ilyich Tchaikovsky (1840-1893)</h3>
-      <p>Russia's most famous composer, Tchaikovsky created beloved ballets like Swan Lake and The Nutcracker, along with powerful symphonies and concertos.</p>
+      <p>Russia&apos;s most famous composer, Tchaikovsky created beloved ballets like Swan Lake and The Nutcracker, along with powerful symphonies and concertos.</p>
       
       <h2>Their Lasting Impact</h2>
-      <p>These composers didn't just create beautiful music—they established techniques, forms, and styles that continue to influence musicians across all genres today.</p>
+      <p>These composers didn&apos;t just create beautiful music—they established techniques, forms, and styles that continue to influence musicians across all genres today.</p>
     `,
     author: "Prof. Vladimir Stasov",
     date: "2024-12-05",

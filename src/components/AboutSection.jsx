@@ -53,7 +53,7 @@ const AboutSection = () => {
       icon: "🎼",
       title: "Classical Mastery",
       description:
-        "Deep dive into Tchaikovsky's masterpieces and classical repertoire",
+        "Deep dive into Tchaikovsky&apos;s masterpieces and classical repertoire",
     },
     {
       icon: "🎹",
@@ -152,9 +152,9 @@ const AboutSection = () => {
                 <h3 className="story-title">15 Years of Excellence</h3>
                 <p className="story-text">
                   From passionate beginnings to becoming a renowned institution,
-                  we've shaped over 500 musicians who now perform worldwide. Our
-                  unique approach combines Tchaikovsky's emotional depth with
-                  modern pedagogical innovation.
+                  we&apos;ve shaped over 500 musicians who now perform
+                  worldwide. Our unique approach combines Tchaikovsky&apos;s
+                  emotional depth with modern pedagogical innovation.
                 </p>
 
                 <div className="quick-stats">

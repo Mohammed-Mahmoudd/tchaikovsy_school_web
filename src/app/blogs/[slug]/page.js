@@ -278,10 +278,10 @@ export default async function BlogPost({ params }) {
 
             {/* WhatsApp CTA Section */}
             <div className="whatsapp-section" style={whatsappSectionStyle}>
-              <h3 style={whatsappTitleStyle}>💬 Let's Connect!</h3>
+              <h3 style={whatsappTitleStyle}>💬 Let&apos;s Connect!</h3>
               <p style={whatsappTextStyle}>
                 Have questions about this article or want to discuss your
-                project? I'm just a message away!
+                project? I&apos;m just a message away!
               </p>
               <a
                 href={whatsappUrl}

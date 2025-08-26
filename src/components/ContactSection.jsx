@@ -177,12 +177,12 @@ const ContactSection = () => {
             </div>
 
             <h2 className="title">
-              Let's <span className="accent">Connect</span>
+              Let&apos;s <span className="accent">Connect</span>
             </h2>
 
             <p className="subtitle">
               Ready to start your musical journey? Reach out to us through any
-              of these channels and let's make beautiful music together
+              of these channels and let&apos;s make beautiful music together
             </p>
           </div>
 
@@ -323,7 +323,8 @@ const ContactSection = () => {
                   </div>
                   <h3 className="social-title">Follow Our Musical Journey</h3>
                   <p className="social-subtitle">
-                    Stay connected and see our students' amazing performances
+                    Stay connected and see our students&apos; amazing
+                    performances
                   </p>
                 </div>
 
