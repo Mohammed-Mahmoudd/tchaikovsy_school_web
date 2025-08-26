@@ -1,5 +1,7 @@
 "use client";
 
+import NavigationBar from "@/components/AppBar";
+import Footer from "@/components/Footer";
 import { useState, useEffect } from "react";
 
 export default function BlogContent({ content, title, whatsappNumber }) {

@@ -1,6 +1,7 @@
 import { getBlogBySlug, getAllBlogs } from "../../lib/blog-utils";
 import { notFound } from "next/navigation";
 import WhatsAppButton from "./WhatsappButton";
+import Footer from "@/components/Footer";
 
 export async function generateStaticParams() {
   const blogs = await getAllBlogs();
@@ -304,6 +305,7 @@ export default async function BlogPost({ params }) {
 
         {/* Client Component for Sticky Button */}
         <WhatsAppButton whatsappUrl={whatsappUrl} />
+        <Footer />
       </main>
     </>
   );

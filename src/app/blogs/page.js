@@ -7,7 +7,6 @@ import BlogFilters from "@/components/BlogFilters";
 import FeaturedBlogCard from "@/components/FeatureBlogCard";
 import NewsletterSignup from "@/components/NewsLetter";
 import Footer from "@/components/Footer";
-import BackgroundShader from "@/components/ShaderGradient";
 import BlogBackground from "@/components/blogBackground";
 import GlassmorphismHero from "@/components/BlogHero";
 
