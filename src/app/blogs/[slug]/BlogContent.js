@@ -215,7 +215,7 @@ export default function BlogContent({ content, title, whatsappNumber }) {
                 {/* Section-specific CTA */}
                 <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
                   <p className="text-sm text-blue-700 mb-3">
-                    💬 Want to discuss "{section.title}" further?
+                    💬 Want to discuss &quot;{section.title}&quot; further?
                   </p>
                   <a
                     href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
