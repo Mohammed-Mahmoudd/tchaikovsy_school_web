@@ -2,7 +2,7 @@
 import "./globals.css";
 import NavigationBar from "@/components/AppBar";
 import NoSSR from "@/components/NoSSR";
-
+import LoadingLayer from "@/components/LoadingLayer";
 export const metadata = {
   title: {
     default: "Tchaikovsky School",
@@ -70,6 +70,7 @@ export default function RootLayout({ children }) {
           <NavigationBar />
         </NoSSR>
         {children}
+        <LoadingLayer />
       </body>
     </html>
   );

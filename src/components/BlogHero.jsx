@@ -34,7 +34,7 @@ export default function GlassmorphismHero() {
             width: "100%",
             height: "100%",
             background:
-              "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.6) 100%)",
+              "linear-gradient(135deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.24) 100%)",
             zIndex: 1,
           }}
         />
@@ -94,7 +94,7 @@ export default function GlassmorphismHero() {
             top: "15%",
             left: "10%",
             fontSize: "1.5rem",
-            color: "rgba(255, 255, 255, 0.08)",
+            color: "rgba(255, 255, 255, 0.06)",
             fontWeight: "bold",
             animation: "noteFloat 8s ease-in-out infinite",
           }}

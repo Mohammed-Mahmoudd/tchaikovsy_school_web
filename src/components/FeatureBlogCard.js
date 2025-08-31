@@ -1,6 +1,5 @@
 "use client";
 
-// Featured Blog Card Component
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,26 +10,31 @@ function FeaturedBlogCard({ blog }) {
       style={{ textDecoration: "none", color: "inherit" }}
     >
       <article
+        className="featured-blog-card"
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
           gap: "40px",
-          background: "white",
+          background: "rgba(255, 255, 255, 0.05)",
           borderRadius: "20px",
           overflow: "hidden",
-          boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+          boxShadow: "0 8px 30px rgba(0,0,0,0.5)",
+          backdropFilter: "blur(15px)",
+          WebkitBackdropFilter: "blur(15px)",
           transition: "all 0.3s ease",
           cursor: "pointer",
+          border: "1px solid rgba(255,255,255,0.1)",
         }}
         onMouseEnter={(e) => {
           e.currentTarget.style.transform = "translateY(-10px)";
-          e.currentTarget.style.boxShadow = "0 30px 60px rgba(0,0,0,0.15)";
+          e.currentTarget.style.boxShadow = "0 20px 40px rgba(0,0,0,0.7)";
         }}
         onMouseLeave={(e) => {
           e.currentTarget.style.transform = "translateY(0)";
-          e.currentTarget.style.boxShadow = "0 20px 40px rgba(0,0,0,0.1)";
+          e.currentTarget.style.boxShadow = "0 8px 30px rgba(0,0,0,0.5)";
         }}
       >
+        {/* Image Section */}
         <div style={{ position: "relative", minHeight: "400px" }}>
           <Image
             src={blog.image || "/images/blog/default.jpg"}
@@ -43,7 +47,7 @@ function FeaturedBlogCard({ blog }) {
               position: "absolute",
               top: "20px",
               left: "20px",
-              background: "rgba(0,0,0,0.8)",
+              background: "rgba(0,0,0,0.5)",
               color: "white",
               padding: "8px 16px",
               borderRadius: "20px",
@@ -55,6 +59,7 @@ function FeaturedBlogCard({ blog }) {
           </div>
         </div>
 
+        {/* Content Section */}
         <div
           style={{
             padding: "40px",
@@ -64,7 +69,7 @@ function FeaturedBlogCard({ blog }) {
           }}
         >
           <div style={{ marginBottom: "20px" }}>
-            <span style={{ color: "#666", fontSize: "0.9rem" }}>
+            <span style={{ color: "#ccc", fontSize: "0.9rem" }}>
               {new Date(blog.date).toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
@@ -72,7 +77,7 @@ function FeaturedBlogCard({ blog }) {
               })}
             </span>
             <span
-              style={{ color: "#666", fontSize: "0.9rem", marginLeft: "15px" }}
+              style={{ color: "#ccc", fontSize: "0.9rem", marginLeft: "15px" }}
             >
               {blog.readTime}
             </span>
@@ -84,7 +89,7 @@ function FeaturedBlogCard({ blog }) {
               fontWeight: "bold",
               marginBottom: "15px",
               lineHeight: "1.3",
-              color: "#333",
+              color: "#fff",
             }}
           >
             {blog.title}
@@ -94,7 +99,7 @@ function FeaturedBlogCard({ blog }) {
             style={{
               fontSize: "1.1rem",
               lineHeight: "1.6",
-              color: "#666",
+              color: "#ddd",
               marginBottom: "20px",
             }}
           >
@@ -104,18 +109,21 @@ function FeaturedBlogCard({ blog }) {
           <div
             style={{ display: "flex", alignItems: "center", marginTop: "auto" }}
           >
-            <span style={{ color: "#333", fontWeight: "500" }}>
+            <span style={{ color: "#fff", fontWeight: "500" }}>
               By {blog.author}
             </span>
             <div
               style={{
                 marginLeft: "auto",
                 padding: "10px 20px",
-                background: "linear-gradient(135deg, #333 0%, #666 100%)",
-                color: "white",
+                background: "rgba(255,255,255,0.1)",
+                color: "#fff",
                 borderRadius: "25px",
                 fontSize: "0.9rem",
                 fontWeight: "500",
+                backdropFilter: "blur(5px)",
+                WebkitBackdropFilter: "blur(5px)",
+                transition: "all 0.3s ease",
               }}
             >
               Read More →
@@ -123,7 +131,17 @@ function FeaturedBlogCard({ blog }) {
           </div>
         </div>
       </article>
+
+      {/* Responsive CSS */}
+      <style jsx>{`
+        @media (max-width: 1024px) {
+          .featured-blog-card {
+            grid-template-columns: 1fr;
+          }
+        }
+      `}</style>
     </Link>
   );
 }
+
 export default FeaturedBlogCard;

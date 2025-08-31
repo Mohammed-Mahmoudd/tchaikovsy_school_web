@@ -307,10 +307,8 @@ const ProgramSection = () => {
       {/* Multi-layered Background Effects */}
       <div style={styles.backgroundLayers}>
         {/* Base gradient overlay */}
-        <div style={styles.gradientOverlay}></div>
 
         {/* Animated mesh gradient */}
-        <div style={styles.meshGradient}></div>
 
         {/* Interactive glow following mouse - hide on mobile */}
         {!isMobile && (

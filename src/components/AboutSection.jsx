@@ -72,19 +72,6 @@ const AboutSection = () => {
       {/* Multi-layered Background */}
       <div className="background-layers">
         {/* Layer 1: Base gradient overlay */}
-        <div className="gradient-overlay"></div>
-
-        {/* Layer 2: Animated mesh gradient */}
-        <div className="mesh-gradient"></div>
-
-        {/* Layer 3: Interactive glow */}
-        <div
-          className="interactive-glow"
-          style={{
-            left: `${mousePosition.x}%`,
-            top: `${mousePosition.y}%`,
-          }}
-        ></div>
 
         {/* Layer 4: Floating elements */}
         <div className="floating-elements">

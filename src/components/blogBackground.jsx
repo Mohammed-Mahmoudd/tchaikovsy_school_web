@@ -22,7 +22,7 @@ export default function BlogBackground() {
           height: "100%",
         }}
         lazyLoad={undefined}
-        fov={45}
+        fov={59}
         pixelDensity={1}
         pointerEvents="none"
       >
@@ -32,39 +32,39 @@ export default function BlogBackground() {
           wireframe={false}
           shader="defaults"
           uTime={0}
-          uSpeed={0.22}
+          uSpeed={0.3}
           uStrength={0.4}
-          uDensity={1.1}
+          uDensity={0.8}
           uFrequency={5.5}
-          uAmplitude={1.4}
+          uAmplitude={7}
           positionX={0}
-          positionY={-0.15}
+          positionY={0}
           positionZ={0}
           rotationX={0}
           rotationY={0}
-          rotationZ={0}
-          color1="#000000"
-          color2="#595959"
+          rotationZ={140}
+          color1="#3b4e76"
+          color2="#000000"
           color3="#000000"
-          reflection={0.1}
+          reflection={0.5}
           // View (camera) props
-          cAzimuthAngle={60}
-          cPolarAngle={90}
-          cDistance={7.1}
-          cameraZoom={15.3}
+          cAzimuthAngle={250}
+          cPolarAngle={140}
+          cDistance={1.5}
+          cameraZoom={12.5}
           // Effect props
           lightType="3d"
           brightness={1.5}
-          envPreset="dawn"
-          grain="off"
+          envPreset="city"
+          grain="on"
           // Tool props
-          toggleAxis={undefined}
-          zoomOut={undefined}
+          toggleAxis={false}
+          zoomOut={false}
           hoverState=""
           // Optional - if using transition features
           enableTransition={false}
         />
-      </ShaderGradientCanvas>{" "}
+      </ShaderGradientCanvas>
     </div>
   );
 }

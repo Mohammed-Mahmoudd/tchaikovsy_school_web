@@ -22,7 +22,7 @@ export default function BackgroundShader() {
         }}
         lazyLoad={undefined}
         fov={87}
-        pixelDensity={1}
+        pixelDensity={-100}
         pointerEvents="none"
       >
         <ShaderGradient

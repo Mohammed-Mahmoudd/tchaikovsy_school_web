@@ -9,9 +9,12 @@ import NewsletterSignup from "@/components/NewsLetter";
 import Footer from "@/components/Footer";
 import BlogBackground from "@/components/blogBackground";
 import GlassmorphismHero from "@/components/BlogHero";
+import LoadingLayer from "@/components/LoadingLayer";
 
 export default async function BlogsPage() {
   const blogs = await getAllBlogs();
+  console.log(blogs);
+  console.log(blogs[0]);
   const categories = getAllCategories();
 
   return (
@@ -33,7 +36,8 @@ export default async function BlogsPage() {
                 fontSize: "2.5rem",
                 marginBottom: "30px",
                 textAlign: "center",
-                background: "linear-gradient(135deg, #333 0%, #666 100%)",
+                background:
+                  "linear-gradient(135deg, #ffffffff 0%, #5289e7ff 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -52,7 +56,11 @@ export default async function BlogsPage() {
               fontSize: "2rem",
               marginBottom: "40px",
               textAlign: "center",
-              color: "#333",
+              background:
+                "linear-gradient(135deg, #ffffffff 0%, #5289e7ff 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
             }}
           >
             Latest Articles
@@ -75,6 +83,7 @@ export default async function BlogsPage() {
       </section>
       <Footer />
       <BlogBackground />
+      <LoadingLayer />
     </main>
   );
 }
