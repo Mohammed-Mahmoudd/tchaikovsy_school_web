@@ -92,7 +92,7 @@ export default function BlogContent({ content, title, whatsappNumber }) {
           <p class="text-sm text-green-700 mb-2">💡 Have questions about ${sectionTitle}s?</p>
           <a 
             href="https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-          `Hi! I have a question about the section ${sectionTitle} from your article "${title}"`
+          `Hi! I have a question about the section ${sectionTitle} from your article ${title}`
         )}"
             target="_blank"
             rel="noopener noreferrer"
@@ -219,7 +219,7 @@ export default function BlogContent({ content, title, whatsappNumber }) {
                   </p>
                   <a
                     href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                      `Hi! I&apos;d like to discuss the "${section.title}" section from your article "${title}"`
+                      `Hi! I like to discuss the ${section.title} section from your article ${title}`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -253,7 +253,7 @@ export default function BlogContent({ content, title, whatsappNumber }) {
         </p>
         <a
           href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-            `Hi! I just finished reading your article "${title}" and I&apos;m interested in working with you. Can we discuss how you can help my business?`
+            `Hi! I just finished reading your article ${title} and Im interested in working with you. Can we discuss how you can help my business?`
           )}`}
           target="_blank"
           rel="noopener noreferrer"
