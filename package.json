@@ -2,12 +2,16 @@
   "name": "tchaikovsy_school_web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "20.x"
+},
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
   },
+  
   "dependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
