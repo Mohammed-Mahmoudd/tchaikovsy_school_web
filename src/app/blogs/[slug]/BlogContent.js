@@ -89,10 +89,10 @@ export default function BlogContent({ content, title, whatsappNumber }) {
         whatsappLink.className =
           "my-4 p-3 bg-green-50 border border-green-200 rounded-lg";
         whatsappLink.innerHTML = `
-          <p class="text-sm text-green-700 mb-2">💡 Have questions about "${sectionTitle}"?</p>
+          <p class="text-sm text-green-700 mb-2">💡 Have questions about ${sectionTitle}s?</p>
           <a 
             href="https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-          `Hi! I have a question about the section "${sectionTitle}" from your article "${title}"`
+          `Hi! I have a question about the section ${sectionTitle} from your article "${title}"`
         )}"
             target="_blank"
             rel="noopener noreferrer"
