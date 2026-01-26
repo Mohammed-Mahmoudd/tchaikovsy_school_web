@@ -22,7 +22,7 @@ export default function HomePage() {
 
       const newOpacity = Math.min(
         endOpacity,
-        startOpacity + (scrollY / scrollRange) * (endOpacity - startOpacity)
+        startOpacity + (scrollY / scrollRange) * (endOpacity - startOpacity),
       );
 
       overlay.style.opacity = newOpacity;
@@ -41,11 +41,9 @@ export default function HomePage() {
         <ContactSection />
         <Footer />
 
-        {/* الخلفية 3D */}
         <BackgroundShader />
         <LoadingLayer />
 
-        {/* Overlay لتغيير opacity حسب scroll */}
         <div
           id="scroll-overlay"
           style={{
@@ -55,10 +53,10 @@ export default function HomePage() {
             width: "100vw",
             height: "100vh",
             pointerEvents: "none",
-            background: "#000", // لون الـ overlay
-            opacity: 0.1, // البداية
+            background: "#000",
+            opacity: 0.1,
             transition: "opacity 0.2s ease-out",
-            zIndex: 5, // فوق الخلفية الأساسية
+            zIndex: 5,
           }}
         ></div>
       </div>

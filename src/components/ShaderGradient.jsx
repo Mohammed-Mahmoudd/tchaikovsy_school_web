@@ -1,4 +1,3 @@
-// src/components/BackgroundShader.js
 "use client";
 
 import { ShaderGradientCanvas, ShaderGradient } from "@shadergradient/react";
@@ -7,12 +6,12 @@ export default function BackgroundShader() {
   return (
     <div
       style={{
-        position: "fixed", // ثابتة
+        position: "fixed",
         top: 0,
         left: 0,
         width: "100vw",
         height: "100vh",
-        zIndex: -1, // تخليها في الخلفية ورا أي content
+        zIndex: -1,
       }}
     >
       <ShaderGradientCanvas

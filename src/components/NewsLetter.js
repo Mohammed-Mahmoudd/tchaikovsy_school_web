@@ -6,7 +6,7 @@ function NewsletterSignup() {
   return (
     <div
       style={{
-        background: "rgba(255,255,255,0.05)", // شفافية زجاجية
+        background: "rgba(255,255,255,0.05)",
         backdropFilter: "blur(15px)",
         WebkitBackdropFilter: "blur(15px)",
         borderRadius: "25px",

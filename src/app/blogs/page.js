@@ -1,9 +1,5 @@
-// src/app/blogs/page.js
-import Link from "next/link";
-import Image from "next/image";
 import { getAllBlogs, getAllCategories } from "@/app/lib/blog-utils";
 import BlogCard from "@/components/BlogCard";
-import BlogFilters from "@/components/BlogFilters";
 import FeaturedBlogCard from "@/components/FeatureBlogCard";
 import NewsletterSignup from "@/components/NewsLetter";
 import Footer from "@/components/Footer";
@@ -13,9 +9,6 @@ import LoadingLayer from "@/components/LoadingLayer";
 
 export default async function BlogsPage() {
   const blogs = await getAllBlogs();
-  console.log(blogs);
-  console.log(blogs[0]);
-  const categories = getAllCategories();
 
   return (
     <main style={{ paddingTop: "90px", minHeight: "100vh" }}>

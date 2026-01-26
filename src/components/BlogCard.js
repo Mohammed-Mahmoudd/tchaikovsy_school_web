@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function BlogCard({ blog }) {
-  console.log(blog, "blogggggggggggggggggdfdfggggggggggggggggggg");
   return (
     <Link
       href={`/blogs/${blog.slug}`}
@@ -12,7 +11,7 @@ export default function BlogCard({ blog }) {
     >
       <article
         style={{
-          background: "rgba(255, 255, 255, 0.05)", // شفافية زجاجية
+          background: "rgba(255, 255, 255, 0.05)",
           borderRadius: "15px",
           overflow: "hidden",
           boxShadow: "0 8px 30px rgba(0,0,0,0.5)",
