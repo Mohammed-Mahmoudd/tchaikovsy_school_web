@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1a1a1a,100:2a2a2a&height=200&section=header&text=TCHAIKOVSKY%20SCHOOL&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Inspiring%20Creativity%20Through%20Music%20Education&descSize=15&descAlignY=62&animation=fadeIn&fontFamily=georgia" width="100%"/>
 
-First, run the development server:
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=22&duration=3000&pause=1000&color=C0C0C0&center=true&vCenter=true&width=600&lines=Inspiring+Creativity.;Shaping+the+Future+of+Music+Education.;50%2B+Instructors.+150%2B+Students." alt="Typing SVG" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br/>
 
-## Learn More
+## `◈` &nbsp; About
 
-To learn more about Next.js, take a look at the following resources:
+> **Tchaikovsky School** is a music education platform dedicated to inspiring creativity and shaping the next generation of musicians. This is the original version of the website — built before the current release at [tchaikovskyschool.com](https://tchaikovskyschool.com).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+50+ instructors · 150+ students · 3 years of experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<br/>
 
-## Deploy on Vercel
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## `◈` &nbsp; Stack
+
+<div align="center">
+
+| | Technology |
+|:---|:---|
+| **Framework** | Next.js |
+| **3D Background** | Three.js |
+| **Styling** | Tailwind CSS |
+| **Language** | TypeScript |
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+<br/>
+
+## `◈` &nbsp; Preview
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Mohammed-Mahmoudd/tchaikovsy_school_web/main/Hero.png" width="100%" alt="Tchaikovsky School — Preview"/>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+<br/>
+
+## `◈` &nbsp; Links
+
+<div align="center">
+
+<br/>
+
+[![Live](https://img.shields.io/badge/tchaikovskyschool.com-111111?style=for-the-badge&logoColor=ffffff&labelColor=222222)](https://tchaikovskyschool.com)
+&nbsp;
+[![Repo](https://img.shields.io/badge/Repository-111111?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=222222)](https://github.com/Mohammed-Mahmoudd/tchaikovsy_school_web)
+
+<br/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a2a2a,50:1a1a1a,100:0a0a0a&height=120&section=footer&animation=fadeIn" width="100%"/>
+
+<sub>© 2026 Tchaikovsky School &nbsp;·&nbsp; Developed by <a href="https://mohammed-mahmoud.com">Mohammed Mahmoud</a></sub>
+
+</div>
