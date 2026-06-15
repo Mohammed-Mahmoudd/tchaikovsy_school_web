@@ -38,16 +38,6 @@ This is the **old version** of the [tchaikovskyschool.com](https://tchaikovskysc
 </div>
 <br/>
 
-## `◈` &nbsp; Preview
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Mohammed-Mahmoudd/tchaikovsy_school_web/main/Hero.png" width="100%" alt="Tchaikovsky School — Preview"/>
-</div>
-<br/>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
-<br/>
 
 ## `◈` &nbsp; Links
 
