@@ -24,7 +24,7 @@ This is the **old version** of the [tchaikovskyschool.com](https://tchaikovskysc
 
 <div align="center">
 
-| | Technology |
+| This | Technology |
 |:---|:---|
 | **Framework** | Next.js |
 | **3D Background** | Three.js |
